@@ -1,0 +1,75 @@
+
+/***********GERAL***********/
+
+header {
+  background-color: #3F4E4F;
+  height: 100px;
+  width: auto;
+  position: fixed;
+}
+
+body {
+  margin: 0;
+  text-align: center;
+  font-family: "Montserrat;", sans-serif;
+  color: #2C3639;
+  background-color: #E3DCD5;
+}
+
+
+h1, h3, p {
+  margin: 0 auto;
+}
+
+h2 {
+margin: 0 auto;
+  font-size: 2.5rem;
+}
+
+div {
+  margin: 0;
+  padding: 200px;
+}
+
+
+.top-container {
+  margin: 0;
+  position: relative;
+  align-items: center;
+
+}
+
+
+.profile {
+  margin: 0;
+  background-color: #A27B5C;
+  width: auto;
+}
+
+.bottom-container {
+  margin: 0;
+  background-color: #E3DCD5;
+}
+
+/***********Introdução***********/
+
+.minhafoto {
+  max-height: 300px;
+  width: auto;
+}
+
+.code-icon {
+  max-height: 150px;
+  width: auto;
+  position: absolute;
+  right: 600px;
+  z-index: -1;
+}
+
+.law-icon {
+  max-height: 150px;
+  width: auto;
+  position: absolute;
+  left: 600px;
+  z-index: -1;
+}
