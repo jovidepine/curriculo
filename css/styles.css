@@ -1,29 +1,35 @@
 
 /***********GERAL***********/
 
-header {
-  background-color: #3F4E4F;
-  height: 100px;
-  width: auto;
-  position: fixed;
-}
-
 body {
   margin: 0;
   text-align: center;
   font-family: "Montserrat;", sans-serif;
-  color: #2C3639;
-  background-color: #E3DCD5;
+  background-color: #edf2f4;
 }
 
-
-h1, h3, p {
+h1 {
   margin: 0 auto;
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #1D3557;
 }
 
 h2 {
 margin: 0 auto;
-  font-size: 2.5rem;
+font-weight: normal;
+color: #1D3557;
+}
+
+h3 {
+  margin: 0 auto;
+  font-weight: normal;
+  color: #1D3557;
+}
+
+p {
+  margin: 0 auto;
+  color: #1D3557;
 }
 
 div {
@@ -31,45 +37,93 @@ div {
   padding: 200px;
 }
 
-
-.top-container {
-  margin: 0;
-  position: relative;
-  align-items: center;
-
+hr {
+  border-style: dotted none none;
+  border-width: thick;
+  height: 5px;
+  width: 5%;
+  border-color: #E63946;
 }
 
-
-.profile {
-  margin: 0;
-  background-color: #A27B5C;
-  width: auto;
-}
-
-.bottom-container {
-  margin: 0;
-  background-color: #E3DCD5;
-}
+/* SEÇÕES DO SITE */
 
 /***********Introdução***********/
 
-.minhafoto {
-  max-height: 300px;
-  width: auto;
+.top-container {
+  line-height: 1.25;
+  text-align: center;
+  margin: auto;
+  position: relative;
+  padding-bottom: 100px;
+  padding-top: 100px;
 }
 
-.code-icon {
-  max-height: 150px;
-  width: auto;
-  position: absolute;
-  right: 600px;
-  z-index: -1;
+.jovifoto {
+  width: 50%;
 }
 
-.law-icon {
-  max-height: 150px;
-  width: auto;
-  position: absolute;
-  left: 600px;
-  z-index: -1;
+/* Skills */
+
+.skills {
+  line-height: 2;
+  width: 50%;
+  margin: auto;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.skill-row1 {
+  padding: 0;
+  text-align: left;
+  margin: 30px auto 90px auto;
+}
+
+.skill-row2 {
+  padding: 0;
+  text-align: right;
+}
+
+.jrlawyer {
+  width: 25%;
+  float: left;
+  padding-right: 50px;
+}
+
+.jrdev {
+  width: 25%;
+  float: right;
+  padding-left: 50px;
+}
+
+/* Bottom */
+
+.contact-me {
+  width: 50%;
+  text-align: center;
+  margin: auto;
+  padding-top: 100px;
+  padding-bottom: 200px;
+}
+
+
+.bottom-container {
+  margin: 0;
+  background-color: #1D3557;
+}
+
+/* Footer */
+
+.footerText {
+  color: #edf2f4;
+}
+
+
+/* LINKS */
+
+a:link {
+  color: #457B9D;
+}
+
+a:hover {
+  color: #A8DADC;
 }
